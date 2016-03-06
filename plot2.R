@@ -21,4 +21,5 @@ datetime <- strptime(paste(testsubsetdata$Date, testsubsetdata$Time, sep=" "),
 png("plot2.png", width=480, height=480)
 plot(datetime, subsetdata$Global_active_power, type="l", xlab="", 
      ylab="Global Active Power (kilowatts)")
+
 dev.off()
